@@ -23,6 +23,8 @@ use Yiisoft\Data\Reader\Sort;
 use Yiisoft\Data\Tests\Support\StubOffsetData;
 use Yiisoft\Data\Tests\TestCase;
 
+use function sprintf;
+
 final class OffsetPaginatorTest extends TestCase
 {
     use PageTokenAssertTrait;

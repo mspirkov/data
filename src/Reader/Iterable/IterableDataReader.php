@@ -33,6 +33,8 @@ use function count;
 use function iterator_to_array;
 use function uasort;
 
+use const SORT_DESC;
+
 /**
  * Iterable data reader takes iterable data as a source and can:
  *

@@ -12,6 +12,9 @@ use function is_array;
 use function is_int;
 use function is_string;
 
+use const SORT_ASC;
+use const SORT_DESC;
+
 /**
  * Sort represents data sorting settings:
  *

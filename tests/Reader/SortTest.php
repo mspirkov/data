@@ -9,6 +9,9 @@ use PHPUnit\Framework\Attributes\DataProvider;
 use Yiisoft\Data\Reader\Sort;
 use Yiisoft\Data\Tests\TestCase;
 
+use const SORT_ASC;
+use const SORT_DESC;
+
 final class SortTest extends TestCase
 {
     public function testInvalidConfigWithoutFieldName(): void
