@@ -13,6 +13,8 @@ use Yiisoft\Data\Reader\ReadableDataInterface;
 use Yiisoft\Data\Reader\Sort;
 use Yiisoft\Data\Reader\SortableDataInterface;
 
+use function call_user_func;
+
 final class MutationDataReader implements
     ReadableDataInterface,
     FilterableDataInterface,

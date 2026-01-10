@@ -34,6 +34,8 @@ use function end;
 use function reset;
 use function sprintf;
 
+use const SORT_ASC;
+
 final class KeysetPaginatorTest extends TestCase
 {
     use PageTokenAssertTrait;

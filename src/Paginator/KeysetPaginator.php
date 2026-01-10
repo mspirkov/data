@@ -25,6 +25,9 @@ use function key;
 use function reset;
 use function sprintf;
 
+use const SORT_ASC;
+use const SORT_DESC;
+
 /**
  * Keyset paginator.
  *

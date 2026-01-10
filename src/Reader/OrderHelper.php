@@ -9,6 +9,8 @@ use function preg_split;
 use function substr;
 use function trim;
 
+use const PREG_SPLIT_NO_EMPTY;
+
 /**
  * @psalm-import-type TOrder from Sort
  */
